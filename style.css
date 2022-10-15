@@ -1,0 +1,17 @@
+.product_main {
+    width: 22%;
+    margin: 10px;
+    border: 1px solid #ffc107;
+}
+#products{
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+.product_main img {
+    height: 215px;
+    width: 100%;
+}
+.description {
+    height: 50px;
+    overflow: hidden;
+}
