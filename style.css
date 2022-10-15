@@ -1,11 +1,12 @@
 .product_main {
-    width: 22%;
     margin: 10px;
     border: 1px solid #ffc107;
 }
-#products{
-    display: inline-flex;
-    flex-wrap: wrap;
+#products {
+    justify-content: center;
+}
+.product_main:hover {
+    box-shadow: 0px 0px 20px #ffc107;
 }
 .product_main img {
     height: 215px;
